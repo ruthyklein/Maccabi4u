@@ -16,71 +16,71 @@
 
 תור
 
-**מיפוי****Routs****לפציינט:**  
+**מיפוי** **Routs** **לפציינט:**
 
-שליפת רשימת פציינטים
+*שליפת רשימת פציינטים*
 
 GET:https //maccabi4u.co.il/patients
 
-שליפת פציינט לפי מזהה
+*שליפת פציינט לפי מזהה*
 
 GET:https //maccabi4u.co.il/patients/1
 
-הוספת פציינט
+*הוספת פציינט*
 
-קופה: https // maccabi4u.co.il/patients
+POS:  https // maccabi4u.co.il/patients
 
-עדכון פציינט
+*עדכון פציינט*
 
 PUT: https // maccabi4u.co.il/patients/1
 
-עדכון סטטוס
+*עדכון סטטוס*
 
 PUT:https // maccabi4u.co.il/patients/1/status
 
-**מיפוי****Routs****לרופאים:**  
+**מיפוי** **Routs** **לרופאים:**
 
-שליפת רשימת רופאים
+*שליפת רשימת רופאים*
 
 GET:https // maccabi4u.co.il/doctors
 
-שליפת רופא לפי מזהה
+*שליפת רופא לפי מזהה*
 
 GET:https // maccabi4u.co.il/doctors/1
 
-הוספת רופא
+*הוספת רופא*
 
-פוסט: https// maccabi4u.co.il/doctors
+POST: https// maccabi4u.co.il/doctors
 
-עדכון רופא
+*עדכון רופא*
 
 PUT: https// maccabi4u.co.il/doctors/1
 
-עדכון סטטוס
+*עדכון סטטוס*
 
 PUT:https//maccabi4u.co.il/doctors/1/status
 
-**מיפוי****Routs****לתורים:**  
+**מיפוי** **Routs** **לתורים:**
 
-שליפת רשימת תורים
+*שליפת רשימת תורים*
 
 GET:https // maccabi4u.co.il/doctors
 
-שליפת תור לפי מזהה
+*שליפת תור לפי מזהה*
 
 GET:https // maccabi4u.co.il/doctors/1
 
-הוספת תור
+*הוספת תור*
 
-פוסט: https// maccabi4u.co.il/doctors
+POST: https// maccabi4u.co.il/doctors
 
-עדכון תור
+*עדכון תור*
 
 PUT: https// maccabi4u.co.il/doctors/1
 
-מחיקת תור
+*מחיקת תור*
 
-מחק: https// maccabi4u.co.il/doctors/1
+DELETE: https// maccabi4u.co.il/doctors/1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjQxNjY4M119
+eyJoaXN0b3J5IjpbOTE3NDEwMDIwXX0=
 -->
