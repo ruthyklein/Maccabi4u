@@ -81,7 +81,6 @@ PUT: https// maccabi4u.co.il/doctors/1
 מחיקת תור
 
 מחק: https// maccabi4u.co.il/doctors/1
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTQyNjcxM119
+eyJoaXN0b3J5IjpbMTgzMjQxNjY4M119
 -->
