@@ -1,6 +1,8 @@
                                                                                                                                                                         
-קופת חולים-Maccabi4u
+**קופת חולים-Maccabi4u**
+
 תיאור הפרויקט:
+
 מערכת לניהול תורים לקופת חולים  באמצעות המערכת ניתן להזמין תור לרופא 
 ולנהל את כלל התורים בתחנה.
 ישויות:
@@ -27,3 +29,6 @@
 הוספת תור	POST: https// maccabi4u.co.il/doctors
 עדכון תור	PUT: https// maccabi4u.co.il/doctors/1
 מחיקת תור	DELETE: https// maccabi4u.co.il/doctors/1
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQ1MDY5NDc1MV19
+-->
