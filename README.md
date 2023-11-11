@@ -28,7 +28,7 @@ GET:https //maccabi4u.co.il/patients/1
 
 *הוספת פציינט*
 
-POS:  https // maccabi4u.co.il/patients
+POST:  https // maccabi4u.co.il/patients
 
 *עדכון פציינט*
 
