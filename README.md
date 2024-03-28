@@ -1,86 +1,82 @@
-<![endif]-->
+**HMO**
 
-**change**
+**the project's description:**
 
-**קופת חולים**
+A system for managing appointments for the HMO. Through the system, you can book an appointment with a doctor
 
-**תיאור הפרויקט:**
+and manage all queues at the station.
 
-מערכת לניהול תורים לקופת חולים באמצעות המערכת ניתן להזמין תור לרופא
+**Entities**:
 
-ולנהל את כלל התורים בתחנה.
+patient
 
-**ישויות**:
+doctor
 
-פציינט
+turn
 
-רופא
+**Mapping** **Routs** **To the patient:**
 
-תור
+*Retrieving a list of patients*
 
-**מיפוי** **Routs** **לפציינט:**
+GET: https://maccabi4u.co.il/patients
 
-*שליפת רשימת פציינטים*
+*Retrieving a patient by ID*
 
-GET:https //maccabi4u.co.il/patients
+GET: https://maccabi4u.co.il/patients/1
 
-*שליפת פציינט לפי מזהה*
+*add patient*
 
-GET:https //maccabi4u.co.il/patients/1
+POST: https://maccabi4u.co.il/patients
 
-*הוספת פציינט*
+*Patient Update*
 
-POST:  https // maccabi4u.co.il/patients
+PUT: https://maccabi4u.co.il/patients/1
 
-*עדכון פציינט*
+*status update*
 
-PUT: https // maccabi4u.co.il/patients/1
+PUT: https // maccabi4u.co.il/patients/1/status
 
-*עדכון סטטוס*
+**Mapping** **Routs** **For doctors:**
 
-PUT:https // maccabi4u.co.il/patients/1/status
+*retrieving a list of doctors*
 
-**מיפוי** **Routs** **לרופאים:**
+GET: https // maccabi4u.co.il/doctors
 
-*שליפת רשימת רופאים*
+*Retrieving a doctor by ID*
 
-GET:https // maccabi4u.co.il/doctors
+GET: https // maccabi4u.co.il/doctors/1
 
-*שליפת רופא לפי מזהה*
-
-GET:https // maccabi4u.co.il/doctors/1
-
-*הוספת רופא*
+*Add a doctor*
 
 POST: https// maccabi4u.co.il/doctors
 
-*עדכון רופא*
+*doctor update*
 
 PUT: https// maccabi4u.co.il/doctors/1
 
-*עדכון סטטוס*
+*status update*
 
-PUT:https//maccabi4u.co.il/doctors/1/status
+PUT: https//maccabi4u.co.il/doctors/1/status
 
-**מיפוי** **Routs** **לתורים:**
+**Mapping** **Routs** **For queues:**
 
-*שליפת רשימת תורים*
+*retrieving queue list*
 
-GET:https // maccabi4u.co.il/doctors
+GET: https // maccabi4u.co.il/doctors
 
-*שליפת תור לפי מזהה*
+*queue retrieval by ID*
 
-GET:https // maccabi4u.co.il/doctors/1
+GET: https // maccabi4u.co.il/doctors/1
 
-*הוספת תור*
+*add queue*
 
 POST: https// maccabi4u.co.il/doctors
 
-*עדכון תור*
+*queue update*
 
 PUT: https// maccabi4u.co.il/doctors/1
 
-*מחיקת תור*
+*queue deletion*
 
 DELETE: https// maccabi4u.co.il/doctors/1
 <!--stackedit_data:
