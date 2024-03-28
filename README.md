@@ -1,84 +1,62 @@
-**HMO**
+# HMO
 
-**the project's description:**
+## Project Description:
 
-A system for managing appointments for the HMO. Through the system, you can book an appointment with a doctor
+A system for managing appointments for the HMO. Through the system, you can book appointments with doctors and manage all queues at the station.
 
-and manage all queues at the station.
+## Entities:
 
-**Entities**:
+- Patient
+- Doctor
+- Turn
 
-patient
+## Routes Mapping for Patients:
 
-doctor
+- **Retrieve a list of patients:**  
+  `GET: https://maccabi4u.co.il/patients`
 
-turn
+- **Retrieve a patient by ID:**  
+  `GET: https://maccabi4u.co.il/patients/1`
 
-**Mapping** **Routs** **To the patient:**
+- **Add a patient:**  
+  `POST: https://maccabi4u.co.il/patients`
 
-*Retrieving a list of patients*
+- **Update a patient:**  
+  `PUT: https://maccabi4u.co.il/patients/1`
 
-GET: https://maccabi4u.co.il/patients
+- **Update patient status:**  
+  `PUT: https://maccabi4u.co.il/patients/1/status`
 
-*Retrieving a patient by ID*
+## Routes Mapping for Doctors:
 
-GET: https://maccabi4u.co.il/patients/1
+- **Retrieve a list of doctors:**  
+  `GET: https://maccabi4u.co.il/doctors`
 
-*add patient*
+- **Retrieve a doctor by ID:**  
+  `GET: https://maccabi4u.co.il/doctors/1`
 
-POST: https://maccabi4u.co.il/patients
+- **Add a doctor:**  
+  `POST: https://maccabi4u.co.il/doctors`
 
-*Patient Update*
+- **Update a doctor:**  
+  `PUT: https://maccabi4u.co.il/doctors/1`
 
-PUT: https://maccabi4u.co.il/patients/1
+- **Update doctor status:**  
+  `PUT: https://maccabi4u.co.il/doctors/1/status`
 
-*status update*
+## Routes Mapping for Queues:
 
-PUT: https // maccabi4u.co.il/patients/1/status
+- **Retrieve a list of queues:**  
+  `GET: https://maccabi4u.co.il/queues`
 
-**Mapping** **Routs** **For doctors:**
+- **Retrieve a queue by ID:**  
+  `GET: https://maccabi4u.co.il/queues/1`
 
-*retrieving a list of doctors*
+- **Add a queue:**  
+  `POST: https://maccabi4u.co.il/queues`
 
-GET: https // maccabi4u.co.il/doctors
+- **Update a queue:**  
+  `PUT: https://maccabi4u.co.il/queues/1`
 
-*Retrieving a doctor by ID*
-
-GET: https // maccabi4u.co.il/doctors/1
-
-*Add a doctor*
-
-POST: https// maccabi4u.co.il/doctors
-
-*doctor update*
-
-PUT: https// maccabi4u.co.il/doctors/1
-
-*status update*
-
-PUT: https//maccabi4u.co.il/doctors/1/status
-
-**Mapping** **Routs** **For queues:**
-
-*retrieving queue list*
-
-GET: https // maccabi4u.co.il/doctors
-
-*queue retrieval by ID*
-
-GET: https // maccabi4u.co.il/doctors/1
-
-*add queue*
-
-POST: https// maccabi4u.co.il/doctors
-
-*queue update*
-
-PUT: https// maccabi4u.co.il/doctors/1
-
-*queue deletion*
-
-DELETE: https// maccabi4u.co.il/doctors/1
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3NDEwMDIwXX0=
--->
+- **Delete a queue:**  
+  `DELETE: https://maccabi4u.co.il/queues/1`
